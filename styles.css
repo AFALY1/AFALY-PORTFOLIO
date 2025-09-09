@@ -358,6 +358,7 @@ header {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 .biography-text p {
@@ -802,7 +803,8 @@ footer {
     }
 
     .biography-text p {
-        font-size: 1rem;
+        font-size: 0.85rem;
+        line-height: 1.6;
     }
 
     .bio-item strong,
