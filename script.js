@@ -87,13 +87,13 @@ if (contactForm) {
             return;
         }
 
-        const emailPattern = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;
+        const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         if (!emailPattern.test(email)) {
             alert('Format email tidak valid!');
             return;
         }
 
-        alert('Terima kasih! Pesan Anda telah dikirim. Kami akan segera menghubungi Anda.');
+        alert('Thank you! Your message has been sent. We will contact you shortly..');
         this.reset();
     });
 }
